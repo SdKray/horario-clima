@@ -3,11 +3,29 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.App {
-	margin-left: 500px;
+#root {
+	margin: auto 33%;
+	padding-top: 50px;
 }
 .rectangle {
-	background-color: black;
-	width: 250px;
-	height: 250px;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: block;
+	width: 500px;
+	height: 500px;
+}
+.container {
+	display: block;
+	margin-bottom: -20px;
+}
+.hora {
+	display: block;
+	color: whitesmoke;
+	font-family: 'light';
+	font-size: 200px;
+	text-align: center;
+}
+.fecha {
+	display: block;
+	text-align: center;
+	color: whitesmoke;
 }
