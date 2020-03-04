@@ -11,9 +11,13 @@ export default class Hora extends Component {
 					</span>
 					<div>
 						<span className='fecha'>
-							{d.getDate()} de {d.getMonth() + 1} del {d.getFullYear()}
+							Miércoles {d.getDate()} de {d.getMonth() + 1} del {d.getFullYear()}
 						</span>
 					</div>
+				</div>
+				<div className='container'>
+					<span className='grados'>31º</span>
+					<span className='cuidad'>Pachuca</span>
 				</div>
 			</div>
 		);
