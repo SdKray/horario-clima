@@ -13,7 +13,6 @@ export default function Hora() {
 	useEffect(() => {
 		consultarApi();
 	}, []);
-	console.log(clima);
 	return (
 		<div className='rectangle'>
 			<div className='container'>

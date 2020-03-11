@@ -1,22 +1,19 @@
-body {
+/* body {
 	background-image: url('./assets/fondo_1.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-#root {
-	margin: auto 32%;
-	padding-top: 50px;
-}
+} */
+
 .rectangle {
 	background-color: rgba(0, 0, 0, 0.6);
 	display: block;
 	width: 500px;
 	height: 480px;
 }
-.container {
+/* .container {
 	display: block;
 	margin-bottom: 10px;
-}
+} */
 .hora {
 	display: block;
 	color: rgb(214, 211, 214);
